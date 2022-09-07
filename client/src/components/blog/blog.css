@@ -1,0 +1,50 @@
+.blog {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.bcontent {
+  color: navy;
+}
+.bloglist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.span {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.blogImg {
+  width: 250px;
+  height: 250px;
+  margin-right: 50px;
+}
+
+.blogIcon {
+  color: orangered;
+  cursor: pointer;
+}
+
+.blogp {
+  color: navy;
+  margin-bottom: ;
+}

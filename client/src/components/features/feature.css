@@ -1,0 +1,69 @@
+.feature {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconn {
+  color: white;
+  padding: 15px;
+  background-color: orangered;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  justify-content: start;
+}
+
+.idea,
+.design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: navy;
+  margin-right: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.middle {
+  margin-right: 80px;
+}
+.image {
+  opacity: 0.7;
+  height: 350px;
+  width: 400px;
+  align-content: center;
+  margin-top: 80px;
+}
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  margin-top: 0px;
+}
+
+span {
+  display: inline-block;
+}

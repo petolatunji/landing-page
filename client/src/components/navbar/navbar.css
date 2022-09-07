@@ -1,0 +1,51 @@
+.navbar {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  overscroll-behavior: inherit;
+}
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://i.pinimg.com/originals/4e/08/d1/4e08d1cec10b2aa0a4663fa5702162c1.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navItem {
+  margin-right: 15px;
+  color: navy;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid orangered;
+  padding: 10px;
+  border-radius: 5px;
+  color: navy;
+  cursor: pointer;
+}
+
+.nbtn {
+  background-color: #f7882f;
+  color: white;
+  border-radius: 2px 15px;
+  height: 50px;
+  width: 150px;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

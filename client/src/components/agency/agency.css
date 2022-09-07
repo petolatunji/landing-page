@@ -1,0 +1,50 @@
+.agency {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1024px;
+}
+.left {
+  margin-right: 80px;
+}
+
+.img {
+  height: 400px;
+  width: 400px;
+}
+
+.title {
+  color: navy;
+  font-weight: bold;
+}
+
+hr {
+  border: 3px solid orangered;
+}
+
+.ptag {
+  color: navy;
+  font-size: 16px;
+}
+
+.summary {
+  display: flex;
+}
+
+.client {
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 60px;
+  height: 120px;
+  padding: 10px;
+}
